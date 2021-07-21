@@ -50,10 +50,9 @@ const Success = () => {
     },
   })(Button);
   return (
-    <div style={{ justifyContent: 'center' }}>
+    <div className="d-flex justify-content" style={{ justifyContent: 'center' }}>
       <div
         style={{
-          left: '42%',
           top: '205px',
           position: 'absolute',
         }}
@@ -62,7 +61,6 @@ const Success = () => {
       </div>
       <div
         style={{
-          left: '41%',
           top: '420px',
           position: 'absolute',
         }}
@@ -70,13 +68,12 @@ const Success = () => {
         <p>
           <b>
             Payment of {location.state.sent}₹ to {location.state.name}{' '}
-            Successfull
+            Successful
           </b>
         </p>
       </div>
       <div
         style={{
-          left: '43%',
           top: '420px',
           position: 'absolute',
         }}
